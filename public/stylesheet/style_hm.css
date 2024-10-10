@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #6F589E;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.estrela1,
+.estrela2 {
+    width: 12px;
+    height: 12px;
+    margin-top: 25px;
+}
+
+.estrela1 {
+    margin-left: -190px;
+
+}
+
+.estrela2 {
+    margin-left: 170px;
+}
+
+/* fim cabeçalho */
+/* corpo */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-image: url(/img/fundohm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.tudo{
+    position: relative;
+    top: -60px;
+}
+.bemvindo {
+    padding: 150px;
+    position: relative;
+    z-index: 1;
+    left: -50px;
+    height: 552px;
+}
+
+.bvdo, .sprouttexto {
+    color: #ffffff;
+    font-size: 80px;
+
+}
+
+.sprouttexto {
+    margin-left: -150px;
+}
+
+.sprout1 {
+    width: 200px;
+    height: auto;
+    margin-top: -150px;
+    margin-left: 400px;
+}
+
+.linhahome {
+    position: relative;
+    margin-right: 250px;
+    top: -50px;
+}
+
+.proxmiss {
+    margin-top: -40px;
+    margin-left: -173px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sim {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -168px;
+}
+
+
+.onde {
+    position: relative;
+    margin-left: 40px;
+    top: -39px;
+    width: 220px;
+    height: auto;
+}
+.ondee{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.graph, .fundografico, .queizi, .linha-divisoria, .umid, .temp , .a63, .umidade, .a27, .temperatura, .graf_int{
+    position: absolute;
+}
+.graph{
+    top: 500px;
+}
+
+.ddhj, .ddhj2{
+    color: #6F589E;
+    width: 100px;
+}
+.dados_de_hoje{
+    position: absolute;
+    top: -350px;
+    left: 943px;
+    z-index: 1;
+}
+.fundografico{
+    top: -380px;
+    left: 915px;
+}
+.linha-divisoria {
+    width: 100px;
+    height: 1px; 
+    background-color: #6F589E;
+    margin: 10px 0;
+    z-index: 1;
+    top: -310px;
+    left: 945px;
+}
+.umid, .temp{
+    z-index: 1;
+    width: 60px;
+    height: auto;
+    left: 960px;
+}
+.umid{
+    top: -280px;
+}
+.temp{
+    top: -130px;
+}
+.a63, .umidade, .a27, .temperatura{
+    color: #6F589E;
+}
+.a63{
+    top: -210px;
+    font-size: 25px;
+    left: 970px;
+}
+.umidade{
+    top: -170px;
+    left: 955px;
+}
+.a27{
+    top: -50px;
+    font-size: 25px;
+    left: 975px;
+}
+.temperatura{
+    top: -20px;
+    left: 940px;
+}
+.graf_int{
+    position: relative;
+    left: 890px;
+    top: 10px;
+    display: inline-block;
+}
+.grafint{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+   
+}
+/* fim do corpo */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <link rel="stylesheet" href="/public/stylesheet/graficopyt.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<header>
+    <li><a href="index.html">
+            <p class="texto">Hope Sprouts</p>
+        </a></li>
+    <img src="../img/estrelinha.png" class="estrela1">
+    <img src="../img/estrelinha2.png" class="estrela2">
+</header>
+<body>
+    <py-config>
+        packages = ["matplotlib", "numpy", "mpld3"]
+    </py-config>
+    <py-script>
+        import matplotlib.pyplot as plt
+        import numpy as np
+        import random
+        import mpld3
+
+        # Generate random data for temperature and humidity
+        temperatura = [random.uniform(20, 30) for _ in range(24)]
+        umidade = [random.uniform(50, 80) for _ in range(24)]
+        horas = list(range(24))
+
+        # Create a figure and plot the data
+        fig, ax = plt.subplots(figsize=(10, 6))
+        ax.plot(horas, temperatura, label='Temperatura (°C)')
+        ax.plot(horas, umidade, label='Umidade (%)')
+
+        # Add labels and title
+        ax.set_xlabel('Hora')
+        ax.set_ylabel('Valor')
+        ax.set_title('Temperatura e Umidade')
+        ax.legend()
+
+        # Show grid
+        ax.grid(True)
+
+        # Convert plot to HTML and display it
+        html_str = mpld3.fig_to_html(fig)
+        display(HTML(html_str))
+    </py-script>
+    <div id="graph-area"></div>
+</body>
+
+</html>
