@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         } else {
             // Se todas as linhas já foram mostradas, redireciona o usuário
-            window.location.href = "/exp2_planetaperigo.html";
+            window.location.href = "/views/exp2_planetaperigo.html";
         }
     });
 });
