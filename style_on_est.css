@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #6F589E;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.estrela1,
+.estrela2 {
+    width: 12px;
+    height: 12px;
+    margin-top: 25px;
+}
+
+.estrela1 {
+    margin-left: -190px;
+
+}
+
+.estrela2 {
+    margin-left: 170px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    z-index: 10;
+}
+/* fim do cabeçalho */
+
+.elementos, .botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 350px; */
+    position: relative;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #FEF5E6;
+
+}
+.elementos{
+    display: flex;
+}
+.sproutin{
+    width: 100px;
+    height: auto;
+    left: 200px;
+    top: 60px;
+    position: relative;
+}
+.ola{
+    position: relative;
+    color: #0074FF;
+    font-weight: 700;
+    left: 300px;
+    font-size: 50px;
+}
+.texto_e_sprout{
+    position: relative;
+    left: 520px;
+    top: -330px;
+    white-space: nowrap;
+}
+.balaoo{
+    position: relative;
+    left: -180px;
+    top: 10px;
+    display: block;
+}
+.balao{
+    position: relative;
+    width: 900px;
+    height: auto;
+    top: 130px;
+    left: 120px;
+    display: block;
+}
+.fundobalao{
+    position: relative;
+    width: 900px;
+    height: 366px;
+    left: 110px;
+    top: -230px;
+    z-index: -1;
+    display: block;
+}
+.textins{
+    position: relative;
+    left: -880px;
+    top: -50px;
+    z-index: 2;   
+}
+.depois{
+    position: relative;
+    top: -540px;
+    left: 250px;
+    display: flex;
+    width: 770px;
+}
+.l11, .l22, .l33, .l44, .l55, .l66{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.l11{
+    animation: 
+        typing 2s steps(32),
+        cursor 0.4s step-end infinite alternate;
+}
+.l22{
+    animation: 
+        typing 2s steps(52),
+        cursor 0.4s step-end infinite alternate;
+}
+.l33{
+    animation: 
+        typing 2s steps(25),
+        cursor 0.4s step-end infinite alternate;
+}
+.l44{
+    animation: 
+        typing 2s steps(56),
+        cursor 0.4s step-end infinite alternate;
+}
+.l55{
+    animation: 
+        typing 2s steps(16),
+        cursor 0.4s step-end infinite alternate;
+}
+.l66{
+    animation: 
+        typing 2s steps(52),
+        cursor 0.4s step-end infinite alternate;
+}
+
+.img_mundoo{
+    position: relative;
+    width: 160px;
+    height: auto;
+    left: 300px;
+    top: 30px;
+    transform: translateX(-1000%); 
+    animation: slideIn 1s forwards;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-1000%); /* Começa completamente fora da tela */
+    }
+    to {
+        transform: translateX(0); /* Termina na posição original */
+    }
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6{
+    color: #0074FF;
+    white-space: nowrap;
+    
+}
+.l1, .l2, .l4, .l6{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.l3{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    top: 40px;
+}
+.l4{
+    position: relative;
+}
+.l5{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    top: 110px;
+    left: -765px;
+}
+.l6{
+    position: relative;
+    font-style: italic;
+    font-weight: 500;
+    top: 240px;
+    left: -1090px;
+}
+.voltar, .proximo{
+    position: relative;
+    width: 250px;
+    height: auto;
+    top: -180px;
+}
+.voltar{
+    left: -20px;
+}
+.proximo{
+    left: 20px;
+    cursor: pointer;
+}
+@keyframes typing {
+    from { width: 0}
+}
+
+@keyframes cursor {
+    100%{ border-color: transparent }
+}
+
+.textins > div {
+    display: none; /* Oculta todas as linhas inicialmente */
+}
+
+.textins > div.show {
+    display: block; /* Mostra as linhas que têm a classe "show" */
+}
+.move-left {
+    transform: translateX(-138px); /* Altere o valor conforme necessário */
+}
+.move-left2 {
+    transform: translateX(-355px); /* Altere o valor conforme necessário */
+}
+
+.depois > div {
+    display: none; /* Oculta as novas linhas inicialmente */
+}

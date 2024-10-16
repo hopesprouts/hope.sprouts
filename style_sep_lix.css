@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #E75E77;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.estrela1,
+.estrela2 {
+    width: 12px;
+    height: 12px;
+    margin-top: 25px;
+}
+
+.estrela1 {
+    margin-left: -190px;
+
+}
+
+.estrela2 {
+    margin-left: 170px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* fim do cabeçalho */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+}
+.pt1{ position: relative;
+    height: 820px;
+    background-image: url(/img/fundo_separandolixo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.t1, .t2{
+    color: #DACDEA;
+    text-align: center;
+}
+.t1{
+    font-size: 80px;
+    font-weight: 900;
+    padding-top: 80px;
+}
+.t2{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* fimpt1 */
+
+.pt2{ position: relative;
+    height: 755px;
+    background-color: #F0FFF2;
+}
+.es1, .linhaez, .apr, .es2, .dif, .fundomate, .lixO, .l1, .l2, .i1, .i2, .i3, .sprout4, .fundoverde, .falabalao, .lixNO, .l3, .l4, .im1, .im2, .im3, .im4 { position: relative;
+    z-index: 1;
+}
+.linhaez{
+    top: 50px;
+    left: 430px;
+}
+.es1, .es2{
+    width: 20px;
+    left: 430px;
+    top: 45px;
+}
+.linhaez {
+    width: 400px;
+    height: 30px;
+}
+.apr{ 
+    text-align: center;
+    top: 18px;
+    z-index: 2;
+    font-size: 20px;
+}
+.dif {
+    font-size: 50px;
+    font-weight: 500;
+    color: #0BAE7D;
+    text-align: center;
+    top: 50px;
+}
+.lixO, .l1, .l2{
+    color: #089764;
+}
+.lixO {
+    font-size: 60px;
+    padding-left: 60px;
+    bottom: 400px;
+}
+.l1, .l2{
+    font-size: 25px;
+    bottom: 380px;
+    padding-left: 80px;
+}
+.l2 {
+    right: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+.i1, .i2, .i3{
+    width: 130px;
+}
+.i1 {
+    bottom: 440px;
+    left: 180px;
+    
+}
+.i2 {
+    bottom: 440px;
+    left: 250px;
+}
+.i3 {
+    left: 120px;
+    bottom: 300px;
+}
+.sprout4 {
+    right: 380px;
+    bottom: 240px;
+}
+.fundoverde {
+    right: 400px;
+    bottom: 240px;
+}
+.s1{
+    font-size: 17px;
+    text-decoration: underline;
+}
+.falabalao {
+    white-space: pre-line;
+    color: #06A069;
+    bottom: 390px;
+    left: 190px;
+    width: 200px;
+    font-size: 13.6px;
+}
+.lixNO, .l3, .l4{
+    color: #F86323;
+}
+.lixNO {
+    font-size: 50px;
+    left: 710px;
+    bottom: 800px;
+    width: 560px;
+    white-space: nowrap;
+}
+.l3, .l4{
+    font-size: 23px;
+    bottom: 770px;
+    white-space: nowrap;
+    width: 10px;
+}
+.l3 {
+    left: 750px;
+}
+.l4 {
+    left: 720px;
+}
+.s2{
+    font-style: italic;
+    font-weight: 600;
+}
+.s3{
+    font-weight: 500;
+}
+.im1,.im2,.im3,.im4{
+    width: 120px;
+}
+.im1 {
+    left: 770px;
+    bottom: 730px;
+}
+.im2 {
+    left: 920px;
+    bottom: 760px;
+}
+.im3 {
+    left: 670px;
+    bottom: 590px;
+}
+.im4 {
+    left: 760px;
+    bottom: 590px;
+}
+
+.fundomate{ position: relative;
+    width: 1310px;
+    top: 100px;
+}
+
+.pt3{ position: relative;
+    height: 790px;
+    background-color: #F0FFF2;
+}
+.aa1{ position: relative;
+    text-align: center;
+    font-size: 45px;
+    color: #0BAE7D;
+    top: 40px;
+}
+.grin{ position: relative;
+    left: 530px;
+    bottom: 100px;
+}
+.sproutlata{ position: relative;
+    width: 900px;
+    top: 90px;
+    right: 80px;
+}
+.balaverde{ position: relative;
+    width: 700px;
+    left: 200px;
+    top: 200px;
+}
+.dentrobalas{ position: relative;
+    white-space: pre-line;
+    z-index: 1;
+    left: 260px;
+    bottom: 80px;
+    font-size: 28px;
+    width: 600px;
+}
+.sproutbalao{ position: relative;
+    left: 900px;
+    bottom: 280px;
+}
+.s4{
+    color: #0074FF;
+} 
+.s5{
+    color: #E71B33;
+} 
+.s6{
+    color: #E99313;
+}
+.s7{
+    color: #0C9349;
+} 
+.s8{
+    color: #7D2F03;
+}
+.div1, .div2{
+    height: 10px;
+    background-color: #0BAE7D;
+}
+.pt4{ position: relative;
+    height: 848px;
+    background-image: url(/img/fundo_paraondevailixo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.praonde{ position: relative;
+    z-index: 1;
+    font-size: 50px;
+    color: #0BAE7D;
+    text-align: center;
+    top: 50px;
+}
+.s9{
+    color: #FFFFFF;
+}
+.esselixo{ position: relative;
+    width: 260px;
+    left: 775px;
+    bottom: 23px;
+}
+.branca{ position: relative;
+    top: 10px;
+    left: 270px;
+}
+.band{ position: relative;
+    top: 120px;
+    left: 70px;
+}
+.fundin{ position: relative;
+    left: 180px;
+    top: 150px;
+    width: 960px;
+}
+.recicle{ position: relative;
+    top: 300px;
+    right: 350px;
+    /* z-index: 1000; */
+}
+.b1, .b2{ position: relative;
+    white-space: pre-line;
+    font-size: 20px;
+    width: 350px;
+}
+.b1{ position: relative;
+    left: 230px;
+    bottom: 190px;
+}
+.b2{ position: relative;
+    left: 720px;
+    bottom: 380px;
+}
+.pt5{ position: relative;
+    height: 622px;
+    background-color: #F0FFF2;
+}
+.y1, .y2, .y3{ position: relative;
+    white-space: nowrap;
+    text-align: center;
+}
+.y1{
+    z-index: 11212;
+    color: #0BAE7D;
+    font-size: 50px;
+    top: 40px;
+}
+.verdindin{ position: relative;
+    top: 60px;
+    left: 510px;
+}
+.y2, .y3{
+    color: #62AA90;
+    font-size: 24px;
+    top: 100px;
+}
+.sproutlixin{ position: relative;
+    top: 200px;
+    left: 250px;
+    width: 300px;
+}
+.ultimobalas{ position: relative;
+    width: 500px;
+    left: 250px;
+    top: 200px;
+}
+.ultimobalas_text{ position: relative;
+    white-space: pre-line;
+    color: #0BAE7D;
+    font-size: 18px;
+    left: 650px;
+    top: 9px;
+    width: 300px;
+}
+.finall{
+    height: 208px;
+    background-color: #FFEEF2;
+}
+.butaoo{position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butao{
+    width: 700px;
+    padding-top: 56px;
+    
+}
